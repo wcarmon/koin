@@ -14,7 +14,9 @@ compile 'org.koin:koin-android:0.3.1'
 
 ## Getting Started
 
-First of all, you need to write a module. A module **gathers your components definitions** and allows it to be loaded by Koin and injected in your application. Keep in mind, that **injection by constructor** is the default strategy targeted by Koin. In Android components (Activity, Fragment ...) you can use `by inject()` to inject your dependencies.  
+First of all, you need to write a module. A module **gathers your components definitions** and allows it to be loaded by Koin and injected in your application. Keep in mind, that **injection by constructor** is the default strategy targeted by Koin. In Android components (Activity, Fragment ...) you can use `by inject()` to inject your dependencies. 
+
+Check the [what's new](https://github.com/Ekito/koin/wiki/What's-new-%3F) wiki page to learn about last changes.
 
 ### Declare your dependencies
 
