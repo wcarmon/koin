@@ -2,7 +2,7 @@
 
 ### What's KOIN?
 
-KOIN is a simple (but powerful) dependency injection framework for Android. It uses [Kotlin](https://kotlinlang.org/) and its functional power to get things done!  No proxy/CGLib, no code generation, no introspection. Just functional Kotlin and DSL magic ;)
+KOIN is a simple (but powerful) dependency injection framework for Android & any Kotlin runtime. It uses [Kotlin](https://kotlinlang.org/) and its functional power to get things done!  No proxy/CGLib, no code generation, no introspection. Just functional Kotlin and DSL magic ;)
 
 KOIN is a very small library, that aims to be as simple as possible and let's you write dependency injection in a breath.
 
@@ -28,10 +28,10 @@ repositories {
 }
 
 // Koin for Android
-compile 'org.koin:koin-android:0.6.0'
+compile 'org.koin:koin-android:0.6.1'
 
 // Koin Testing tools
-testCompile 'org.koin:koin-test:0.6.0'
+testCompile 'org.koin:koin-test:0.6.1'
 ```
 
 ### Setup your Application
@@ -145,6 +145,7 @@ You can also easily bind any Android property:
 bindString(R.string.server_url, WeatherModule.SERVER_URL)
 ```
 
+Android/Koin property binding is available for int/string/boolean. 
 
 
 ## Named dependencies
